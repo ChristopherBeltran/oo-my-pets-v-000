@@ -50,6 +50,14 @@ def walk_dogs
   
 end 
 
+def play_with_cats
+  @pets[:cats].mood = "happy"
+end 
+
+def feed_fish
+  @pets[:fish].mood = "happy"
+end 
+
 
 
 
