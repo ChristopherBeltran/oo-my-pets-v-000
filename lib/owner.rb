@@ -75,10 +75,5 @@ def sell_pets
   end 
 end 
 end 
-  
-end 
-
-
-
 
 end 
