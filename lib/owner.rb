@@ -55,7 +55,7 @@ def play_with_cats
 end 
 
 def feed_fish
-  @pets[:fish].map do |fishes|
+  @pets[:fish].each do |fishes|
     fishes.mood = "happy"
 end 
 end 
