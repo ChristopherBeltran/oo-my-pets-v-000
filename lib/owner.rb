@@ -33,6 +33,19 @@ def buy_fish(name)
   fish.owner = self
 end 
 
+def buy_dog(name)
+  dog = Dog.new(name)
+  @pets[:dogs] << dog
+  dog.owner = self
+end 
+
+def buy_dog(name)
+  cat = Cat.new(name)
+  @pets[:cats] << cat
+  cat.owner = self
+end 
+
+
 
 
 end 
