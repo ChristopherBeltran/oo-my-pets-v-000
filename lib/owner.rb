@@ -10,4 +10,6 @@ def initialize(name)
   @species = "human"
   @@all << self
 end
+
+
 end 
