@@ -39,7 +39,7 @@ def buy_dog(name)
   dog.owner = self
 end 
 
-def buy_dog(name)
+def buy_cat(name)
   cat = Cat.new(name)
   @pets[:cats] << cat
   cat.owner = self
