@@ -27,6 +27,9 @@ def say_species
   return "I am a #{@species}."
 end 
 
+def buy_fish(name)
+  
+
 
 
 end 
