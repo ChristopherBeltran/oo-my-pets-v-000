@@ -23,8 +23,9 @@ def self.reset_all
   @@all.clear
 end
 
-def say_species(species)
-  puts "I am a #{species}"
+def say_species
+  race = self.species
+  puts "I am a #{race}"
 end 
 
 
