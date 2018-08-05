@@ -45,6 +45,10 @@ def buy_cat(name)
   cat.owner = self
 end 
 
+def walk_dogs
+  @pets[:dogs].mood = "happy"
+end 
+
 
 
 
