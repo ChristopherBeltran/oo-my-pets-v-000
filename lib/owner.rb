@@ -28,7 +28,7 @@ def say_species
 end 
 
 def buy_fish(name)
-  
+  fish = 
 
 
 
