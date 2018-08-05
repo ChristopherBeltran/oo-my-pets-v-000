@@ -46,7 +46,8 @@ def buy_cat(name)
 end 
 
 def walk_dogs
-  @pets[:dogs].mood = "happy"
+  happy_dogs = @pets[:dogs]
+  happy_dogs.mood = "happy"
 end 
 
 
