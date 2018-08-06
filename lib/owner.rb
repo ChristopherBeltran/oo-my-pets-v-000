@@ -72,6 +72,7 @@ end
 
 def sell_pets
   @pets.each do |type, pet|
+    binding.pry
     pet.mood = "happy"
   end
 end 
