@@ -71,9 +71,20 @@ end
 end 
 
 def sell_pets
-  @pets.each do |type, pet|
-    pet.mood = "happy"
-  end
+    fishes = @pets[:fishes]
+  fishes.each do |fish|
+    fish.mood = "nervous"
+  end 
+   kitties = @pets[:cats]
+  kitties.each do |cats|
+    cats.mood = "nervous"
+  end 
+   doggos = @pets[:dogs]
+  doggos.each do |dogs|
+    dogs.mood = "nervous"
+  end 
+  
+@pets = {fishes: [], cats: [], dogs: []}
 end 
 
 
