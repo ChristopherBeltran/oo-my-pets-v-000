@@ -87,5 +87,8 @@ def sell_pets
 @pets = {fishes: [], cats: [], dogs: []}
 end 
 
+def list_pets
+  
+
 
 end 
